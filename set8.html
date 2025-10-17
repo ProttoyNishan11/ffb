@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set 8 – Family Feud Questions</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- Kalpurush Font -->
+  <style>
+    @font-face {
+      font-family: 'Kalpurush';
+      src: url('Kalpurush.ttf') format('truetype');
+    }
+    body {
+      font-family: 'Kalpurush', 'Arial Rounded MT Bold', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Set 8 – Questions/Answers</h1>
+    <a href="index.html" class="back-btn">← Back to Home</a>
+  </header>
+
+  <main class="questions-container">
+
+    <!-- Question 1 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ১: কোন কাজে মানুষ বলে “কাল করব!” কিন্তু করে না কখনো?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	ব্যায়াম করা – 25 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	ডায়েট শুরু করা – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	পড়াশোনা করা – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	ঘর পরিষ্কার করা – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	টাকা জমানো – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	বন্ধুকে ফোন করা – 6 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	কাপড় ধোয়া – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	বই পড়া – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	ডাক্তার দেখানো – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	ফাইল সাজানো – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ২: বাংলাদেশের ট্রাফিক জ্যামে সবচেয়ে বেশি শোনা যায় কোন শব্দ?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	হর্ন – 30 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	“চলবে না ভাই!” – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	“আগে আমি যাব!” – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	“পিছনে যান!” – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	“বাস দাঁড়াও!” – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	“ওই ভাই সাইড দেন!” – 6 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	“ধীরে ধীরে!” – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	“চালক ভাই, এয়ার কন্ডিশন!” – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	“আর কতো সময় লাগবে?” – 2 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	“এই রাস্তা কখন ফাঁকা হবে?” – 2 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৩: একজন বাঙালি বিদেশে গিয়ে কোন জিনিসটা সবচেয়ে বেশি মিস করে?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	ভাত – 25 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	মাছ – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	চা – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	মা-বাবা – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	বন্ধু – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	বাংলা ভাষা – 6 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	গরম খাবার – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	বাজারের ভাজাপোড়া – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	রিকশা – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	বৃষ্টি – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৪: বাড়িতে অতিথি এলে মা’রা প্রথমে কী বলেন?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	“চা খাবে?” – 30 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	“খেয়ে যেও!” – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	“এই, ঘরটা একটু পরিষ্কার করো!” – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	“কে এসেছে রে?” – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	“এই, পানি দাও!” – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	“আরে, এত দিন পর!” – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	“তুমি একেবারে চেনা যাচ্ছ না!” – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	“বসো, বসো!” – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	“এইটা আমার ছেলে!” – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	“আরে, কিছু আনতে পারলে না?” – 2 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৫: যদি মানুষ অদৃশ্য হয়ে যেত, প্রথমে কী করত?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	প্রিয়জনকে চুপিচুপি দেখা – 25 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	পরীক্ষার প্রশ্ন দেখা – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	টিকিট ছাড়া সিনেমা দেখা – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	ফ্রি শপিং – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	বসের অফিসে ঢোকা – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	শত্রুকে ভয় দেখানো – 7 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	ব্যাংকে ঢুকে ছবি তোলা – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	বন্ধুদের সাথে মজা করা – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	স্কুল কামাই করা – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	রাজপথে হাঁটা – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৬: কোন শব্দ শুনলে বাঙালি সঙ্গে সঙ্গে খুশি হয়?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	ছুটি – 25 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	বেতন – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	খাবার – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	প্রেম – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	বৃষ্টি – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	বোনাস – 7 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	মেলা – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	ঘুম – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	অফার – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	ঈদ – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৭: কোন জিনিস হারালে মানুষ সবচেয়ে বেশি খোঁজে?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	মোবাইল – 30 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	টাকা – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	চাবি – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	চশমা – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	ভালোবাসা – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	চার্জার – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	জুতা – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	ব্যাগ – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	আইডি কার্ড – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	কলম – 2 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৮: বিদ্যুৎ চলে গেলে মানুষ কী করে?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	ফ্যান খোঁজে – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	মোমবাতি জ্বালায় – 18 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	ফোন চার্জ দেখে – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	বাইরে বসে গল্প করে – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	রাগ করে – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	গরমে ঘামতে থাকে – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	প্রতিবেশীর বাসা দেখে লাইট আছে কিনা – 7 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	ইনভার্টার চালায় – 6 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	গান গায় – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	ঘুমাতে যায় – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ৯: কোন খাবার খাওয়ার পর সবাই বলে, “আর একটুখানি খাবো”?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	বিরিয়ানি – 25 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	খিচুড়ি – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	রসগোল্লা – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	ফুচকা – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	চা – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	মিষ্টি দই – 6 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	চিপস – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	ঝালমুড়ি – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	কাবাব – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	চকলেট – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question-card" onclick="toggleAnswers(this)">
+      <h2>প্রশ্ন ১০: যখন কেউ প্রেমে পড়ে, তখন সবচেয়ে অদ্ভুত কাজ কী করে?</h2>
+      <ol class="answers" style="display:none;">
+        <li><span>1.	সারাদিন ফোনে থাকা – 25 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>2.	গান শোনা – 20 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>3.	নামের প্রথম অক্ষর লেখা – 15 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>4.	কবিতা লেখা – 10 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>5.	আয়নায় তাকানো – 8 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>6.	মন খারাপ করা – 7 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>7.	মেসেঞ্জারে ঘন্টা পার করা – 5 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>8.	ফেসবুকে লাইক দেয়া – 4 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>9.	অকারণে হাসা – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+        <li><span>10.	ঘুম হারানো – 3 পয়েন্ট</span><button class="check-btn" onclick="toggleCheck(event, this)">☐</button></li>
+      </ol>
+    </div>
+
+  </main>
+</body>
+</html>
