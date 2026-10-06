@@ -4,6 +4,10 @@ A fun and interactive **Family Feud-style quiz game** built with **HTML, CSS, an
 Each set contains 10 engaging questions with answers and points — perfect for playing with friends, family, or classmates!  
 
 ---
+## 🌐 Live Demo
+
+**Try it online:**
+https://prottoynishan11.github.io/ffb/index.html
 
 ## 🧩 Features  
 - 🎯 7 separate question sets (Set 1–7)  
